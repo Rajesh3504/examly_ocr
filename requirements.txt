@@ -1,8 +1,7 @@
 easyocr
 streamlit
-opencv-python-headless
+opencv-python-headless==4.5.5.64
 Pillow
-mmcv-full
 mmdet
 mmocr
 paddleocr
@@ -10,6 +9,7 @@ paddlepaddle
 mycolorpy
 plotly
 plotly-express
+mmcv-full --no-binary mmcv-full
 numpy
 google
 google.generativeai
