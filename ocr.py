@@ -21,14 +21,14 @@ if input_option == "Camera":
 
     if st.button("Capture Frame"):
         ret, frame = cap.read()
-        input_image = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
+        image = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
 
 elif input_option == "File":
     # File input
     image = st.file_uploader(label="Upload your image here", type=['png', 'jpg', 'jpeg'])
 
     if image is not None:
-        input_image = Image.open(image)
+        image = Image.open(image)
 
 # Load OCR model
 st.write("Bard response:")
