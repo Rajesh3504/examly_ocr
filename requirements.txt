@@ -2,7 +2,7 @@ easyocr
 streamlit
 pillow
 numpy
-opencv
+opencv-python
 google
 google.generativeai
 
