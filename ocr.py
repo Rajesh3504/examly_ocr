@@ -33,7 +33,7 @@ elif input_option == "File":
 # Load OCR model
 st.write("Bard response:")
 model = genai.GenerativeModel('gemini-pro-vision')
-response=model.generate_content(["what is the answer", input_image])
+response = model.generate_content(["what is the answer", image])
 st.write(response.text)
 # Release camera when done
 if input_option == "Camera":
