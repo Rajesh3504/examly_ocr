@@ -1,4 +1,5 @@
 torch
+libgl1
 easyocr
 streamlit
 pillow
