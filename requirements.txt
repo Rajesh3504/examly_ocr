@@ -1,10 +1,10 @@
 torch
-libgl1
+
 easyocr
 streamlit
 pillow
 numpy
-opencv-python
+opencv-python-libgl1
 google
 google.generativeai
 
