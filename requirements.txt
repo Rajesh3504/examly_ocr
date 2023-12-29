@@ -1,4 +1,4 @@
-easyocr
+easyocr==1.7.1
 streamlit
 pillow
 numpy
