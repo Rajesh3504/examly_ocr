@@ -1,3 +1,4 @@
+torch
 easyocr
 streamlit
 pillow
@@ -5,3 +6,4 @@ numpy
 opencv-python
 google
 google.generativeai
+
