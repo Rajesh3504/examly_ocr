@@ -1,8 +1,19 @@
-easyocr==1.7.1
+easyocr
 streamlit
-pillow
+opencv-python-headless
+Pillow
+mmcv-full
+mmdet
+mmocr
+paddleocr
+paddlepaddle
+mycolorpy
+plotly
+plotly-express
 numpy
-opencv-python
 google
 google.generativeai
+
+
+
 
