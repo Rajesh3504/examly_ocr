@@ -6,7 +6,7 @@ import numpy as np
 import cv2  
 import google.generativeai as genai
 
-genai.configure(api_key='AIzaSyCbrGlCX60mFMpwmmB_jYJGZs7M21PpTj4')
+genai.configure(api_key='AIzaSyACbzAawVBFyGxHTpl8NCiceYPiKhcdvUw')
 
 st.title("Chaduvko bro")
 
